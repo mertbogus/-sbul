@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.banner{
+    height: 50vh;
+    background-image: linear-gradient(0,0,0,0.5),rgba(0,0,0,0.5);
+    background-image: url(images/group.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+}
+
+.banner h1{
+    padding-top: 170px;
+    font-size: 50px;
+    letter-spacing: 6px;
+    font-weight: 600;
+    text-shadow: 0 0 30px orange;
+}
+
+/* Search Job Css */
+.search-job{
+    background-image: linear-gradient(to right, #6db9ef, #7ce08a);
+    padding: 30px 0;
+    margin:-50px 6% 50px;
+}
+
+.form-control{
+    display: inline-flex;
+    max-width: 250px;
+    margin: 10px 5px;
+}
+
+/* Jobs */
+
+#jobs{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#jobs h3{
+    padding-bottom:30px;
+}
+
+h3::before{
+    content: "";
+    background-image: linear-gradient(to right, #6db9ef, #7ce08a);
+    width: 50px;
+    height: 30px;
+    position: absolute0;
+    z-index: -100;
+    margin-top: -15px;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+}
