@@ -55,3 +55,8 @@ h3::before{
     border-top-left-radius: 70px;
     border-bottom-right-radius: 70px;
 }
+
+#jobs img{
+    max-width: 100px;
+    margin: 10px 20px;
+}
